@@ -47,4 +47,14 @@ nav{
 .navs:hover a{
     color: #fbf8be;
 }
+/* Intro Section */
+.intro{
+    display: flex;
+
+    flex-wrap: wrap;
+}
+#surf{
+    width: 25%;
+    height: auto;
+}
 
