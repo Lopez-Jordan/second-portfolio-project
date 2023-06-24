@@ -9,7 +9,7 @@ body{
     background-color: #244e70;
     max-height: 100vh;
 }
-
+/* NAV BAR */
 nav{
     display: flex;
     justify-content: end;
@@ -20,17 +20,31 @@ nav{
 .navs a{
     color:#244e70;
     padding: 3px;
+    text-decoration: none;
+    font-weight:900;
 }
 .navs{
-    margin: 40px;
+    padding: 40px;
+
 }
-@media (max-width: 460px){
+@media (max-width: 768px){
     nav{
         flex-direction: column;
-        align-items: center;
     }
     .navs{
         margin: 20px;
+        width: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
     }
-    
+
+
 }
+.navs:hover{
+    background-color: #244e70;
+}
+.navs:hover a{
+    color: #fbf8be;
+}
+
