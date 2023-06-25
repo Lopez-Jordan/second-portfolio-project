@@ -110,10 +110,24 @@ nav{
     color: #244e70;
 
 }
-
-
-
-
+.card1 div img{
+    width: 40%;
+}
+.card2 div img{
+    width: 20%;
+}
+.card3 div img{
+    width: 20%;
+}
+.card4 div img{
+    width: 20%;
+}
+.cards p{
+    color: #244e70;
+}
+.flex-card{
+    display: flex;
+}
 
 
 
