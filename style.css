@@ -9,10 +9,17 @@ body{
     max-height: 100vh;
 }
 /* NAV BAR */
+#parent-nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
 nav{
     display: flex;
     justify-content: end;
     background-color: #fbf8be;
+  
 }
 .navs a{
     color:#244e70;
@@ -31,14 +38,16 @@ nav{
 .navs:hover a{
     color: #fbf8be;
 }
+
+
 /* Intro Section */
 .intro{
     display: flex;
-    margin-top: 50px;
+    margin-top: 216px;
     margin-bottom: 50px;
 }
 #surf{
-    width: 400px;
+    width: 70%;
     margin-left: 40px;
     margin-right: 40px;
 }
@@ -50,11 +59,25 @@ nav{
 }
 .content-div{
     clear:both;
+
     flex: 1;
 }
 .content-div-child p{
     width: 50%;
 }
+.content-div h1{
+    margin-bottom: 200px;
+    font-size: xx-large;
+}
+.content-div p{
+    clear:both;
+    width: 75%;
+    line-height: 30px;
+    font-size: larger;
+}
+
+
+
 
 
 
@@ -75,6 +98,8 @@ nav{
 
 
 
+
+
 @media (max-width: 768px){
     nav{
         flex-direction: column;
@@ -89,5 +114,23 @@ nav{
     .intro{
         flex-direction: column;
         align-items: center;
+        margin-top: 400px;
+    }
+    .image-div img{
+        width:50%;
+    }
+    .content-div h1{
+        float:none;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 70px;
+    }
+    .content-div p{
+        clear:both;
+        width: 100%;
+        text-align: center;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 }
+
