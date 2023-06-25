@@ -67,7 +67,9 @@ nav{
 }
 .content-div h1{
     margin-bottom: 200px;
+
     font-size: xx-large;
+
 }
 .content-div p{
     clear:both;
@@ -128,7 +130,7 @@ nav{
     .content-div p{
         clear:both;
         width: 100%;
-        text-align: center;
+        text-align: left;
         padding-left: 5%;
         padding-right: 5%;
     }
