@@ -1,9 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Brandon bld, sans-serif;
     color: #fbf8be
-    
 }
 body{
     background-color: #244e70;
@@ -14,19 +13,68 @@ nav{
     display: flex;
     justify-content: end;
     background-color: #fbf8be;
-
-
 }
 .navs a{
     color:#244e70;
     padding: 3px;
     text-decoration: none;
-    font-weight:900;
+    font-weight:bolder;
+    text-transform: uppercase;
 }
 .navs{
     padding: 40px;
-
 }
+.navs:hover{
+    background-color: #244e70;
+    transition-duration: 0.3s;
+}
+.navs:hover a{
+    color: #fbf8be;
+}
+/* Intro Section */
+.intro{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#surf{
+    width: 400px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.image-div{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.content-div{
+    clear:both;
+    flex: 1;
+}
+.content-div-child p{
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.works{
+    background-color: #fbf8be;
+}
+
+
+
 @media (max-width: 768px){
     nav{
         flex-direction: column;
@@ -38,23 +86,8 @@ nav{
         display: flex;
         justify-content: center;
     }
-
-
+    .intro{
+        flex-direction: column;
+        align-items: center;
+    }
 }
-.navs:hover{
-    background-color: #244e70;
-}
-.navs:hover a{
-    color: #fbf8be;
-}
-/* Intro Section */
-.intro{
-    display: flex;
-
-    flex-wrap: wrap;
-}
-#surf{
-    width: 25%;
-    height: auto;
-}
-
