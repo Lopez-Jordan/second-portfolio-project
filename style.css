@@ -78,7 +78,7 @@ nav{
 }
 .content-div p{
     clear:both;
-    width: 75%;
+    width: 90%;
     line-height: 30px;
     font-size: larger;
 }
@@ -87,13 +87,29 @@ nav{
 
 .works{
     background-color: #fbf8be;
-    color: red;
 }
+.cards{
+    margin-top: 20px;
+    margin-bottom: 70px;
+    display:flex;
+    flex-wrap: wrap;
+}
+.card1{
+    color: #244e70;
+    margin: 50px;
+}
+.card2{
+    color: #244e70;
 
+}
+.card3{
+    color: #244e70;
 
+}
+.card4{
+    color: #244e70;
 
-
-
+}
 
 
 
@@ -131,7 +147,7 @@ nav{
     .intro{
         flex-direction: column;
         align-items: center;
-        margin-top: 300px;
+        margin-top: 200px;
     }
     .image-div img{
         width:50%;
