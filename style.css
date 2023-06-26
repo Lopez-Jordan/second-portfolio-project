@@ -188,6 +188,7 @@ nav{
     justify-content: flex-end;
     margin-bottom: 40px;
     margin-right: 80px;
+    margin-left: 20px;
 }
 .me{
     justify-content: center;
@@ -222,15 +223,22 @@ nav{
 }
 .box button{
     color:#244e70;
-    padding: 10px;
+    padding: 5px;
     background-color: #fbf8be;
     border: 3px solid #244e70;
     font-weight: 500;
     font-size: 20px;
     margin-bottom: 55px;
+    padding-left: 30px;
+    padding-right:30px;
 }
 .room{
     padding:40px;
+}
+button:hover{
+    color:#fbf8be;
+    background-color: #244e70;
+    transition-duration: 0.3s;
 }
 
 
@@ -323,5 +331,8 @@ nav{
     }
     #phone{
         margin-top: 20px;
+    }
+    button{
+        margin-left: 14px;
     }
 }
