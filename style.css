@@ -48,8 +48,9 @@ nav{
 }
 #surf{
     width: 50%;
-    margin-left: 40px;
-    margin-right: 40px;
+    height:auto;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 .image-div{
     display: flex;
@@ -131,17 +132,36 @@ nav{
 }
 .card1 div img{
     width: 35%;
+    height: auto;
+    flex: 1;
 }
 .card2 div img{
     width: 20%;
+    height: auto;
+    flex: 1;
 }
 .card3 div img{
-    width: 10%;
+    width: 5%;
+    height:auto;
+    flex: 1;
 }
 .card4 div img{
     width: 10%;
+    height: auto;
+    flex: 1;
 }
-
+.card1 div p{
+    flex: 1;
+}
+.card2 div p{
+    flex: 1;
+}
+.card3 div p{
+    flex: 1;
+}
+.card4 div p{
+    flex: 1;
+}
 
 
 
@@ -215,7 +235,22 @@ nav{
         line-height: 25px;
     }
     .card1 div img{
-        width: 25%;
+        width: 50%;
+        height: auto;
+        flex:2;
+    }
+    .card2 div img{
+        width: 50%;
+        height: 50%;
+    }
+    .card3 div img{
+        width: 10%;
+        height: auto;
+        height: 50%;
+    }
+    .card4 div img{
+        width: 50%;
+        height: 50%;
     }
 }
 
