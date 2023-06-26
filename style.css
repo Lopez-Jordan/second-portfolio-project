@@ -208,8 +208,13 @@ nav{
     font-weight: 400;
     padding: 5px;
 }
+.pairs{
+    display: flex;
+}
 .center{
-    width: 50%;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
 }
 .box button{
     color:#244e70;
@@ -282,8 +287,7 @@ nav{
     .works h1{
         font-size: 25px;
     }
-    .flex-card{
-    }
+
     .flex-card p{
         font-size: 15px;
         line-height: 25px;
@@ -305,5 +309,8 @@ nav{
     .card4 div img{
         width: 50%;
         height: 50%;
+    }
+    .center{
+        flex-direction: column;
     }
 }
