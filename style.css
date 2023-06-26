@@ -9,8 +9,9 @@ body{
     height: 2000px;
 }
 .titles{
-
+    font-size: larger;
 }
+
 /* NAV BAR */
 #parent-nav{
     position: fixed;
@@ -36,12 +37,14 @@ nav{
 }
 .navs:hover{
     background-color: #244e70;
-    transition-duration: 0.3s;
+    transition-duration: 0.3sec;
 }
 .navs:hover a{
     color: #fbf8be;
 }
-
+#first, #second, #third{
+    transition-duration: 0.5sec;
+}
 
 /* Intro Section */
 .intro{
@@ -128,26 +131,52 @@ nav{
     padding-left: 40px;
     border-left: 5px solid #fbf8be;
 }
-.card1 div img{
-    width: 35%;
+.card1 div a{
+    width: 100%;
     height: auto;
     flex: 1;
 }
-.card2 div img{
-    width: 20%;
+.card1 div a img{
+    width:100%;
+    height: auto;
+}
+.card2 div a{
+    width: 50%;
     height: auto;
     flex: 1;
 }
-.card3 div img{
-    width: 5%;
-    height:auto;
-    flex: 1;
+.card2 div a img{
+    width:100%;
+    height: auto;
 }
-.card4 div img{
-    width: 10%;
+.card3 div a{
+    width: 50%;
     height: auto;
     flex: 1;
 }
+.card3 div a img{
+    width:100%;
+    height: auto;
+}
+.card4 div a{
+    width: 50%;
+    height: auto;
+    flex: 1;
+}
+.card4 div a img{
+    width:100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
 .card1 div p{
     flex: 1;
 }
