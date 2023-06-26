@@ -188,7 +188,6 @@ nav{
     justify-content: flex-end;
     margin-bottom: 40px;
     margin-right: 80px;
-
 }
 .me{
     justify-content: center;
@@ -210,6 +209,11 @@ nav{
 }
 .pairs{
     display: flex;
+    margin: 50px;
+    align-items: center;
+}
+.pairs span{
+    margin-right: 10px;
 }
 .center{
     width: 90%;
@@ -223,8 +227,11 @@ nav{
     border: 3px solid #244e70;
     font-weight: 500;
     font-size: 20px;
+    margin-bottom: 55px;
 }
-
+.room{
+    padding:40px;
+}
 
 
 
@@ -294,7 +301,7 @@ nav{
     }
     .card1 div img{
         width: 50%;
-        height: auto;
+        height: 50%;
         flex:2;
     }
     .card2 div img{
@@ -312,5 +319,9 @@ nav{
     }
     .center{
         flex-direction: column;
+        align-items: center;
+    }
+    #phone{
+        margin-top: 20px;
     }
 }
