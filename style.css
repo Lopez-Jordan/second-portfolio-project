@@ -6,7 +6,7 @@
 }
 body{
     background-color: #244e70;
-    height: auto;
+    height: 2000px;
 }
 /* NAV BAR */
 #parent-nav{
@@ -84,7 +84,10 @@ nav{
 
 .works{
     background-color: #244e70;
-    margin: 30px 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin: top 30px;
+    max-height: fit-content;
 }
 .works h1{
     letter-spacing: 2px;
@@ -101,7 +104,7 @@ nav{
     margin-bottom: 70px;
     display:flex;
     flex-wrap: wrap;
-    height: 200px;
+    height: auto;
 }
 .flex-card{
     display: flex;
@@ -156,7 +159,10 @@ nav{
 }
 
 /* CONTACT ME */
-
+.contact{
+    position: relative;
+    bottom: 0;
+}
 
 
 
@@ -246,4 +252,3 @@ nav{
         height: 50%;
     }
 }
-
