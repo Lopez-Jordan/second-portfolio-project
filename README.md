@@ -8,7 +8,7 @@ For this project, I created a portfolio website that displayed my previous html 
 
 Here is the link to the deployed website: 
 <br>
-[Click Here for link](https://lopez-jordan.github.io/Horiseon-updated/)
+[Click Here for link](https://lopez-jordan.github.io/second-portfolio-project/)
 
 ## Credits
 
