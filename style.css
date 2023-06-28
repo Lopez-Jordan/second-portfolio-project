@@ -36,14 +36,12 @@ nav{
 }
 .navs:hover{
     background-color: #244e70;
-    transition-duration: 0.3sec;
+    transition-duration: 0.3s;
 }
 .navs:hover a{
     color: #fbf8be;
 }
-#first, #second, #third{
-    transition-duration: 0.5sec;
-}
+
 
 /* Intro Section */
 .intro{
