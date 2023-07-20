@@ -83,6 +83,12 @@ nav{
     border-bottom: 5px solid #fbf8be;
 }
 /* WORKS */
+
+
+
+
+
+
 .works{
     background-color: #244e70;
     margin-left: 80px;
@@ -118,16 +124,23 @@ nav{
     margin-left: 20px;
     margin-right: 10px;
 }
-#right{
+.right{
     padding-right: 30px;
     border-right: 5px solid #fbf8be;
 }
-#left{
+.left{
     padding-left: 40px;
     border-left: 5px solid #fbf8be;
 }
+.card0 div a{
+    width: 50%;
+}
+.card0 div a img{
+    width : 100%;
+}
+
 .card1 div a{
-    width: 100%;
+    width: 50%;
     height: auto;
     flex: 1;
 }
@@ -161,6 +174,9 @@ nav{
 .card4 div a img{
     width:100%;
     height: auto;
+}
+.card0 div p{
+    flex: 1;
 }
 .card1 div p{
     flex: 1;
@@ -257,6 +273,30 @@ button:hover{
     background-color: #244e70;
     transition-duration: 0.3s;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 768px){
     *{
