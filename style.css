@@ -132,6 +132,14 @@ nav{
     padding-left: 40px;
     border-left: 5px solid #fbf8be;
 }
+
+.card-1 div a{
+    width: 80%;
+}
+.card-1 div a img{
+    width : 100%;
+}
+
 .card0 div a{
     width: 50%;
 }
@@ -359,6 +367,8 @@ button:hover{
         font-size: 15px;
         line-height: 25px;
     }
+
+
     .card1 div img{
         width: 50%;
         height: 50%;
